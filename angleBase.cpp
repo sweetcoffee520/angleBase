@@ -9,7 +9,7 @@
         minute = 0;
         second = 0;
     }
-    angleBase::angleBase(int d, int m, int s)
+    angleBase::angleBase(int d, int m, double s)
     {
         d %= 360;
         degree = d;
