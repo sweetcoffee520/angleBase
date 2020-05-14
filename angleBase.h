@@ -10,7 +10,7 @@ public:
     angleBase(int d, int m, double s);
     //拷贝
     angleBase(const angleBase &m);
-    //小数输入，flag为0是工程角度，为1是弧度，默认为0
+    //浮点数输入，flag为0是数学角度，为1是弧度，默认为0
     angleBase(double &m,bool flag=0);
     angleBase operator=(const angleBase &m);
     angleBase operator-(const angleBase &m);
